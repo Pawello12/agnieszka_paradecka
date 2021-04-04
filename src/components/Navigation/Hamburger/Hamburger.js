@@ -3,10 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
-const Hamburger = ({openMenuHandler}) => {
+const Hamburger = ({openMenuHandler, menuActive}) => {
+
     return(
         <div className="nav__hamburger">
-            <button onClick={openMenuHandler}>
+            <button onClick={openMenuHandler} >
                 <FontAwesomeIcon icon={faBars} />
             </button>
         </div>

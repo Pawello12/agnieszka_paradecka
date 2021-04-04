@@ -11,4 +11,13 @@
 
 body {
     font-family: 'Varela', sans-serif;
+    min-height: 100vh;
+    height: 200vh;
+    background-color: #4d4d4d;
+}
+
+#root {
+    width: 100vw;
+    min-height: 100vh;
+    min-height: 100%;
 }

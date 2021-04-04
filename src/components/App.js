@@ -6,9 +6,9 @@ class App extends Component {
   render() {
     return(
       <>
-        <nav>
+        {/* <nav> */}
           <Navigation/>
-        </nav>
+        {/* </nav> */}
         <header></header>
         <main></main>
         <footer></footer>

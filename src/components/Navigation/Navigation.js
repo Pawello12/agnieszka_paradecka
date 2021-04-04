@@ -23,13 +23,13 @@ const Navigation = () => {
 
     return(
         <>
-            <div className="nav">
+            <nav className="nav">
                 <div className="nav__logo"></div>
                 <div className={menuActive ? "nav__buttons nav__buttons-active" : "nav__buttons"}>
                     {buttonsList}
                 </div>
                 <Hamburger openMenuHandler={openMenuHandler} menuActive={menuActive} />
-            </div>
+            </nav>
         </>
     )
 }
