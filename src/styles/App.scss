@@ -1,5 +1,12 @@
 nav {
-    background-color: #000;
     width: 100%;
     height: 60px;
+    background-color: #4D4D4D;
+
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        justify-content: center;
+    }
 }
