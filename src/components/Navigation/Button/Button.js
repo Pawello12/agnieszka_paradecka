@@ -1,8 +1,11 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
-const Button = ({text}) => {
+const Button = ({text, url}) => {
     return(
-        <button className="nav__button">{text}</button>
+        <button className="nav__button">
+            <NavLink className="nav__link" to={url} >{text}</NavLink>
+        </button>
     )
 }
 
