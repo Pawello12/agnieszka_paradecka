@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Button from './Button/Button';
 import './Navigation.scss';
 import Hamburger from './Hamburger/Hamburger';
@@ -7,6 +7,7 @@ const buttons = ["start", "portfolio", "o mnie", "kontakt"];
 
 const Navigation = () => {
 
+    const [menuActive, setMenuActive] = useState(false);
 
     const buttonsList = buttons.map(button => {
         return(
@@ -14,14 +15,20 @@ const Navigation = () => {
         )
     })
 
+
+    const openMenuHandler = () => {
+        setMenuActive(!menuActive);
+    }
+
+
     return(
         <>
             <div className="nav">
                 <div className="nav__logo"></div>
-                <div className="nav__buttons">
+                <div className={menuActive ? "nav__buttons nav__buttons-active" : "nav__buttons"}>
                     {buttonsList}
                 </div>
-                <Hamburger />
+                <Hamburger openMenuHandler={openMenuHandler} menuActive={menuActive} />
             </div>
         </>
     )
