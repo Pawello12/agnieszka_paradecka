@@ -4,9 +4,12 @@ import '../styles/App.scss';
 class App extends Component {
   render() {
     return(
-      <div className="app">
-
-      </div>
+      <>
+        <nav></nav>
+        <header></header>
+        <main></main>
+        <footer></footer>
+      </>
     )
   }
 }
