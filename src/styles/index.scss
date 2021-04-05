@@ -12,12 +12,12 @@
 body {
     font-family: 'Varela', sans-serif;
     min-height: 100vh;
-    height: 100vh;
+    // height: 100vh;
     background-color: #4d4d4d;
 }
 
 #root {
-    height: 100%;
-    min-height: 100%;
-
+    min-height: 100vh;
+    // height: 151vh;
+    position: relative;
 }
