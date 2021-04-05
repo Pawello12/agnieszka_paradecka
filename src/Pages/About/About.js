@@ -54,7 +54,7 @@ const About = () => {
             <section className="about">
                 <div className="about__image"></div>
                 <article className="about__article">
-                    <p className="about__introduction">{content.introduction}</p>
+                    <p className="about__introduction clearfix">{content.introduction}</p>
                     <List content={content.individualExhibitions} />
                     <List content={content.collectiveExhibitions} />
                     {paragraphs}

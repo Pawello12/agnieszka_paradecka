@@ -8,6 +8,13 @@
         background-image: url(../../img/about/me_400.jpg);
         background-position: 50% 50%;
         background-size: cover;
+
+        @media (orientation: landscape) {
+            width: 200px;
+            height: 200px;
+            margin: 10px 20px;
+            float: left;
+        }
     }
 
     &__article {
@@ -24,6 +31,7 @@
 
     &__introduction {
         text-indent: 20px;
+        font-weight: 700;
     }
 
     &__p {
