@@ -4,6 +4,7 @@ import '../styles/App.scss';
 import Navigation from './Navigation/Navigation';
 import Header from './Header/Header';
 import Main from './Main/Main';
+import Footer from './Footer/Footer';
 
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
         <Navigation/>
         <Header name="Agnieszka Paradecka" />
         {<Main />}
-        <footer></footer>
+        <Footer year={"2021"} name="Agnieszka Paradecka" />
 
       </Router>
     )

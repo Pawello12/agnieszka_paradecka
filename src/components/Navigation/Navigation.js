@@ -22,7 +22,7 @@ const Navigation = () => {
 
 
     return(
-        <>
+        <div className="nav-container">
             <nav className="nav">
                 <div className="nav__logo"></div>
 
@@ -32,7 +32,7 @@ const Navigation = () => {
 
                 <Hamburger openMenuHandler={openMenuHandler} menuActive={menuActive} />
             </nav>
-        </>
+        </div>
     )
 }
 
