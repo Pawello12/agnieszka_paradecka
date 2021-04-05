@@ -49,7 +49,7 @@
         height: 100vh;
         transform: translate(-50%, -50%);
         background-color: #000;
-        transition: .3s;
+        transition: transform .3s;
 
         @media (min-width: 1024px) {
             position: static;
@@ -62,7 +62,8 @@
     }
 
     &__buttons-active {
-        top: 50vh;
+        // top: 50vh;
+        transform: translate(-50%, 50%);
     }
 
     &__link {
