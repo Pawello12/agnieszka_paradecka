@@ -2,19 +2,64 @@
     margin: 10px 0 30px;
     color: white;
 
+    @media (min-width: 1024px) {
+        max-width: 1200px;
+        margin: 10px auto 30px;
+    }
+
     &__image {
         width: 100%;
         height: 400px;
         background-image: url(../../img/about/me_400.jpg);
         background-position: 50% 50%;
         background-size: cover;
+        margin: 0 auto;
 
-        @media (orientation: landscape) {
+        @media (orientation: landscape) and (max-width: 900px) {
             width: 200px;
             height: 200px;
             margin: 10px 20px;
             float: left;
         }
+
+        @media (min-width: 600px) and (min-height: 600px) {
+            background-image: url(../../img/about/me_600.jpg);
+            height: 600px;
+            width: 600px;
+        }
+
+        @media(min-width: 800px) {
+            background-image: url(../../img/about/me_800.jpg);
+            // float: none;
+        }
+
+        @media (min-width: 1024px) {
+            float: left;
+            width: 400px;
+            height: 600px;
+            margin: 35px 40px 10px 20px;
+        }
+
+        @media (min-width: 1065px) {
+            width: 550px;
+            height: 650px;
+            margin-bottom: 50px;
+        }
+
+        @media (min-width: 1115px) {
+            margin-bottom: 10px;
+        }
+
+        @media (min-width: 1161px) {
+            height: 600px;
+        }
+
+        @media (min-width: 1212px) {
+            width: 600px;
+            height: 600px;
+        }
+
+
     }
 
     &__article {
@@ -26,7 +71,11 @@
     }
 
     &__ul {
-        padding-left: 5px;
+        padding-left: 20px;
+
+        @media (min-width: 1024px) {
+            padding-left: 50px;
+        }
     }
 
     &__introduction {
@@ -37,5 +86,10 @@
     &__p {
         margin-top: 20px;
         text-indent: 20px;
+
+        @media (min-width: 1024px) {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
     }
 }
