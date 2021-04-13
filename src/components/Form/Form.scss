@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    &__input {
+        margin: 5px 0;
+        padding: 10px;
+    }
+
+    &__textarea {
+        margin: 5px 0;
+        padding: 10px;
+        height: 200px;
+    }
+
+    &__button {
+        padding: 10px;
+        margin: 10px 0;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+}
