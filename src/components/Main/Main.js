@@ -5,6 +5,7 @@ import About from '../../Pages/About/About';
 import Contact from '../../Pages/Contact/Contact';
 import Portfolio from '../../Pages/Portfolio/Portfolio';
 import ErrorPage from '../../Pages/ErrorPage/ErrorPage';
+import './Main.scss';
 
 const Main = () => {
     return (

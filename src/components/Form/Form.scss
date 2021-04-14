@@ -3,6 +3,10 @@
     flex-direction: column;
     margin: 10px;
 
+    @media (min-width: 1024px) {
+        flex-basis: 500px;
+    }
+
     &__input {
         margin: 5px 0;
         padding: 10px;
@@ -21,5 +25,18 @@
         color: white;
         border: none;
         cursor: pointer;
+
+        @media (min-width: 1024px) {
+            transition: transform .1s linear;
+        }
     }
+
+
+
+    &__button:hover {
+        @media (min-width: 1024px) {
+            transform: scale(1.05);
+        }
+    }
+
 }
