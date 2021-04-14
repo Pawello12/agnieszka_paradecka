@@ -19,6 +19,11 @@ const Navigation = () => {
         )
     })
 
+    const handleScreenSize = () => {
+        setMenuActive(false);
+    }
+
+    window.addEventListener('resize', handleScreenSize);
 
     return(
         <div className="nav-container">
