@@ -2,17 +2,24 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: red;
-    margin: 10px;
+    align-items: flex-start;
+    background-color: black;
+    margin: 10px 0;
+    padding: 10px;
 
+    &__a {
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
 
     &__link {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: green;
-        height: 100px;
+        // height: 100px;
         width: 100px;
     }
 
@@ -20,8 +27,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: blue;
+        background-color: #4D4D4D;
         border-radius: 50%;
-        width: 100px;
+        width: 70px;
+        height: 70px;
+        color: black;
+        font-size: 40px;
     }
+
+    &__name {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    &__name-mail {
+        text-transform: lowercase;
+    }
+
 }
