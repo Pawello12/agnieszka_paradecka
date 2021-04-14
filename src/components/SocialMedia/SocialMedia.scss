@@ -1,0 +1,27 @@
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+    margin: 10px;
+
+
+    &__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        height: 100px;
+        width: 100px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        border-radius: 50%;
+        width: 100px;
+    }
+}
