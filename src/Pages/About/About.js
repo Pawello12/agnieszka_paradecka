@@ -26,7 +26,7 @@ const content = {
     Maluję miejsca, które są dla mnie ważne i pełne wspomnień. W mojej twórczości obok realistycznych
     pejzaży pojawiają się również obrazy abstrakcyjne inspirowane naturą. Podczas malowania stosuję przede
     wszystkim farby akrylowe”.`,
-    
+
     `„Nazywam się Agnieszka Paradecka. Urodziłam się 8 grudnia 1993 roku w Bełchatowie. Tutaj też
     uczęszczałam do Szkoły Podstawowej nr 12 im. Kornela Makuszyńskiego, a później do Publicznego Gimnazjum
     nr 4 im. Krzysztofa Kamila Baczyńskiego.
@@ -50,7 +50,7 @@ const About = () => {
     })
 
     return(
-        <main>
+        <main className="main main-about">
             <section className="about">
                 <div className="about__image"></div>
                 <article className="about__article">

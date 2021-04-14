@@ -4,7 +4,7 @@ import SocialMedia from '../../components/SocialMedia/SocialMedia';
 
 const Contact = () => {
     return(
-        <main>
+        <main className="main main-contact">
             <Form/>
             <SocialMedia />
         </main>
