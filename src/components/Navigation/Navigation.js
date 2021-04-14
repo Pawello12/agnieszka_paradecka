@@ -9,16 +9,15 @@ const Navigation = () => {
 
     const [menuActive, setMenuActive] = useState(false);
 
-    const buttonsList = buttons.map(button => {
-        return(
-            <Button key={button.url} text={button.id} url={button.url} />
-        )
-    })
-
-
     const openMenuHandler = () => {
         setMenuActive(!menuActive);
     }
+
+    const buttonsList = buttons.map(button => {
+        return(
+            <Button key={button.url} text={button.id} url={button.url} openMenuHandler={openMenuHandler} />
+        )
+    })
 
 
     return(
