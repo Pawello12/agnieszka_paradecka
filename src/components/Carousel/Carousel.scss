@@ -1,16 +1,39 @@
 .image-gallery-slide {
-    background-color: blue;
+    background-color: black;
     width: 100%;
     height: 75vh;
     overflow: hidden;
     // position: relative;
 
+    @media (orientation: landscape) {
+        height: 80vh;
+    }
+
+    @media (min-width: 1024px) and (orientation: landscape) {
+        height: 65vh;
+    }
+
+    @media (min-height: 800px) and (orientation: portrait) {
+        height: 80vh;
+    }
+
+    @media (min-height: 900px) and (orientation: portrait) {
+        height: 85vh;
+    }
 
     .image-gallery-image {
         margin: 0 auto;
         height: 75vh;
         width: auto;
+        left: 50%;
+        top: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
 
+        @media (orientation: landscape) {
+            width: 100vw;
+            height: auto;
+        }
     }
 
     .image-gallery-description {
@@ -25,6 +48,11 @@
         padding: 20px 0;
         opacity: 0.7;
         white-space: pre-line;
+        bottom: 50px;
 
+        @media (min-width: 1024px) {
+            font-size: 20px;
+            line-height: 30px;
+        }
     }
 }

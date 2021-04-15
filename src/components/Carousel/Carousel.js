@@ -14,18 +14,18 @@ const images = [
         description: `Tytuł
             rok, technika`,
         originalClass: "carousel__img",
-        originalLabel: "sraka"
+        originalLabel: "sasdasdsad"
     },
     {
         original: image2,
         thumbnail: image2,
-        description: `dupa
+        description: `adasda
         x`
     },
     {
         original: image3,
         thumbnail: image3,
-        description: "dupa"
+        description: "asdasdasd"
     }
 ];
 
