@@ -41,7 +41,7 @@ const Carousel = () => {
                 showPlayButton={false}
                 lazyLoad={true}
                 slideDuration={450}
-                slideInterval={500000}
+                slideInterval={5000}
 
             />
         </div>
