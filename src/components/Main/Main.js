@@ -7,9 +7,13 @@ import Portfolio from '../../Pages/Portfolio/Portfolio';
 import ErrorPage from '../../Pages/ErrorPage/ErrorPage';
 import './Main.scss';
 
+import { AnimatePresence } from 'framer-motion';
+
 const Main = () => {
     return (
+        <AnimatePresence>
         <Switch>
+
             <Route path="/" exact component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
@@ -17,6 +21,7 @@ const Main = () => {
             <Route component={ErrorPage} />
 
         </Switch>
+        </AnimatePresence>
     )
 }
 

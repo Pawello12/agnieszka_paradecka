@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.scss';
 import List from './List/List';
+import {motion} from 'framer-motion';
+import pageTransition from '../../config/pageTransition';
 
 const content = {
     introduction: "(ur.1993, Bełchatów) ukończyła Liceum Plastyczne im. Katarzyny Kobro w Zduńskiej Woli. W latach 2013-2018 studiowała na Wydziale Tkaniny i Ubioru na Akademii Sztuk Pięknych w Łodzi – w 2016 obroniła pracę dyplomową w Pracowni Tkaniny Unikatowej prof. Włodzimierza Cygana, aneks w Pracowni Rysunku i Malarstwa prof. Andrzeja Sadowskiego." ,
@@ -50,7 +52,8 @@ const About = () => {
     })
 
     return(
-        <main className="main main-about">
+
+        <motion.main className="main main-about" initial={pageTransition.initial} animate={pageTransition.animate} exit={pageTransition.exit} >
             <section className="about">
                 <div className="about__image"></div>
                 <article className="about__article">
@@ -60,7 +63,8 @@ const About = () => {
                     {paragraphs}
                 </article>
             </section>
-        </main>
+        </motion.main>
+
     )
 }
 

@@ -1,13 +1,15 @@
 import React from 'react';
 import Form from '../../components/Form/Form';
 import SocialMedia from '../../components/SocialMedia/SocialMedia';
+import {motion} from 'framer-motion';
+import pageTransition from '../../config/pageTransition';
 
 const Contact = () => {
     return(
-        <main className="main main-contact">
+        <motion.main className="main main-contact" initial={pageTransition.initial} animate={pageTransition.animate} exit={pageTransition.exit}>
             <Form/>
             <SocialMedia />
-        </main>
+        </motion.main>
     )
 }
 
