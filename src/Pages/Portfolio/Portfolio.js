@@ -9,7 +9,7 @@ const Portfolio = () => {
     let { path, url } = useRouteMatch();
 
     return(
-        <motion.main className="main main-portfolio" initial={pageTransition.initial} animate={pageTransition.animate} exit={pageTransition.exit}>
+        <motion.main className="main main-portfolio" initial={pageTransition.initial} animate={pageTransition.animate} exit={pageTransition.exit} transition={pageTransition.duration}>
 
 
 lorem

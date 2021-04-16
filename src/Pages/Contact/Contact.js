@@ -6,7 +6,7 @@ import pageTransition from '../../config/pageTransition';
 
 const Contact = () => {
     return(
-        <motion.main className="main main-contact" initial={pageTransition.initial} animate={pageTransition.animate} exit={pageTransition.exit}>
+        <motion.main className="main main-contact" initial={pageTransition.initial} animate={pageTransition.animate} exit={pageTransition.exit} transition={pageTransition.duration}>
             <Form/>
             <SocialMedia />
         </motion.main>

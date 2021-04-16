@@ -53,8 +53,8 @@ const About = () => {
 
     return(
 
-        <motion.main className="main main-about" initial={pageTransition.initial} animate={pageTransition.animate} exit={pageTransition.exit} >
-            <section className="about">
+        <motion.main className="main main-about" initial={pageTransition.initial} animate={pageTransition.animate} exit={pageTransition.exit} transition={pageTransition.duration} >
+            <section className="about" style={{overflowX: 'hidden'}}>
                 <div className="about__image"></div>
                 <article className="about__article">
                     <p className="about__introduction clearfix">{content.introduction}</p>
