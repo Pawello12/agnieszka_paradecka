@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 const Button = ({text, url, openMenuHandler}) => {
     return(
         <button className="nav__button">
-            <NavLink onClick={openMenuHandler} className="nav__link" to={url} >{text}</NavLink>
+            <NavLink onClick={openMenuHandler} className="nav__link" exact to={url} activeClassName={"current-route"} >{text}</NavLink>
         </button>
     )
 }

@@ -83,6 +83,7 @@
     &__link {
         text-decoration: none;
         color: white;
+        transition: color .3s;
     }
 
     &__button {
@@ -131,4 +132,8 @@
             outline: none;
         }
     }
+}
+
+.current-route {
+    color: #4d4d4d;
 }
