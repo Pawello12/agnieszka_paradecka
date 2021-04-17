@@ -11,8 +11,8 @@ const Portfolio = () => {
     return(
         <motion.main className="main main-portfolio" initial={pageTransition.initial} animate={pageTransition.animate} exit={pageTransition.exit} transition={pageTransition.duration}>
 
-            <Link to={`${url}/painting`}>malarstwo</Link>
-            <Link to={`${url}/fabric`}>tkanina</Link>
+            <Link exact to={`${url}/:painting`}>malarstwo</Link>
+            <Link to={`${url}/:fabric`}>tkanina</Link>
 
         </motion.main>
     )

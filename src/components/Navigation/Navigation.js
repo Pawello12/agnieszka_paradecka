@@ -3,7 +3,7 @@ import Button from './Button/Button';
 import './Navigation.scss';
 import Hamburger from './Hamburger/Hamburger';
 
-const buttons = [{id: "start", url: ""}, {id: "portfolio", url: "portfolio"}, {id: "o mnie", url: "about"}, {id: "kontakt", url: "contact"}];
+const buttons = [{id: "start", url: "/"}, {id: "portfolio", url: "/portfolio"}, {id: "o mnie", url: "/about"}, {id: "kontakt", url: "/contact"}];
 
 const Navigation = () => {
 
