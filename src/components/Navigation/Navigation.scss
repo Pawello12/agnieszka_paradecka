@@ -1,8 +1,8 @@
 .nav-container {
     @media (min-width: 1024px) {
-        padding-top: 90px;
+        padding-top: 20px;
         position: sticky;
-        top: -90px;
+        top: -20px;
     }
 }
 
@@ -37,12 +37,12 @@
 
         @media(min-width: 1024px) {
             background-image: url(../../img/logo/logo_800.jpg);
-            flex-basis: 250px;
-            height: 250px;
+            flex-basis: 200px;
+            height: 200px;
             transform: none;
             margin: none;
             margin-left: 50px;
-            transform: translateY(14px);
+            transform: translateY(37px);
         }
     }
 
