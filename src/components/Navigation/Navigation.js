@@ -3,7 +3,7 @@ import Button from './Button/Button';
 import './Navigation.scss';
 import Hamburger from './Hamburger/Hamburger';
 
-const buttons = [{id: "start", url: "/"}, {id: "portfolio", url: "/portfolio"}, {id: "o mnie", url: "/about"}, {id: "kontakt", url: "/contact"}];
+const buttons = [{id: "start", url: "/", exact: true}, {id: "portfolio", url: "/portfolio"}, {id: "o mnie", url: "/about"}, {id: "kontakt", url: "/contact"}];
 
 const Navigation = () => {
 
@@ -15,7 +15,7 @@ const Navigation = () => {
 
     const buttonsList = buttons.map(button => {
         return(
-            <Button key={button.url} text={button.id} url={button.url} openMenuHandler={openMenuHandler} />
+            <Button key={button.url} text={button.id} exact={button.exact} url={button.url} openMenuHandler={openMenuHandler} />
         )
     })
 
