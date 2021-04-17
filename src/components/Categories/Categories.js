@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, useRouteMatch, useHistory} from 'react-router-dom';
+import {Link, Route, useRouteMatch, useHistory} from 'react-router-dom';
 import Category from '../Category/Category';
 
 const Categories = ({categories, goBack}) => {
@@ -14,10 +14,22 @@ const Categories = ({categories, goBack}) => {
         )
     })
 
+    const routes = categories.map(category => {
+        return (
+            <Route path={`${path}/:${category.url}`} key={category.url}>
+                {category.name}
+            </Route>
+        )
+    })
+
     return (
         <div className="categories">
-            {links}
-            {goBack ? <Link><button className="categories__button" onClick={history.goBack} >Powrót</button></Link> : ''}
+            <Route exact path={path} >
+                {links}
+                {goBack ? <Link><button className="categories__button" onClick={history.goBack} >Powrót</button></Link> : ''}
+            </Route>
+
+            {routes}
         </div>
     )
 }

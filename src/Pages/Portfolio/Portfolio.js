@@ -31,6 +31,8 @@ const Portfolio = () => {
                 <Route path={`${path}/:other`}>
                     <Categories categories={otherCategoriesList} goBack={true} />
                 </Route>
+
+
             </Switch>
 
         </motion.main>
