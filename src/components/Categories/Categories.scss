@@ -4,7 +4,7 @@
     justify-content: space-between;
     flex-direction: column;
     background-color: red;
-    margin: auto;
+    margin: auto auto 30px;
 
     &__a {
         text-decoration: none;
@@ -13,12 +13,35 @@
         margin: 5px;
     }
 
+    &__button {
+        font-family: 'Mitr', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+        padding: 10px 0;
+        outline: none;
+        border: none;
+        background: transparent;
+        color: white;
+    }
+
     &__category {
         background-color: blue;
         height: 200px;
+        background-size: cover;
     }
 
     &__category-painting {
-        background-color: green;
+        background-image: url(../../img/portfolio/painting/painting.jpg);
+    }
+
+    &__category-fabric {
+        background-image: url(../../img/portfolio/fabric/fabric_400.jpg);
+    }
+
+    &__category-other {
+        background-image: url(../../img/portfolio/other/other.jpg);
+        background-position: 0 110%;
     }
 }
