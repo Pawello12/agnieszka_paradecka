@@ -6,6 +6,7 @@ import pageTransition from '../../config/pageTransition';
 import Category from '../../components/Category/Category';
 import Categories from '../../components/Categories/Categories';
 import {categoriesList, paintingCategoriesList, fabricCategoriesList, otherCategoriesList} from '../../data/categoriesList';
+import './Portfolio.scss';
 
 const Portfolio = () => {
 

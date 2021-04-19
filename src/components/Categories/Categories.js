@@ -2,6 +2,7 @@ import React from 'react';
 import {Link, Route, Switch, useRouteMatch, useHistory} from 'react-router-dom';
 import Category from '../Category/Category';
 import PortfolioGallery from '../PortfolioGallery/PortfolioGallery';
+import './Categories.scss'
 
 const Categories = ({categories, goBack, path, url}) => {
     // let { path, url } = useRouteMatch();
@@ -12,14 +13,14 @@ const Categories = ({categories, goBack, path, url}) => {
     const links = categories.map(category => {
         if (goBack === false){
             return (
-                <Link to={`${url}/${category.url}`} key={category.url}>
-                    <Category name={category.name} className={`category-${category.url}`} />
+                <Link to={`${url}/${category.url}`} key={category.url} className="categories__a">
+                    <Category name={category.name} className={`categories__category-${category.url}`} />
                 </Link>
             )
         } else {
             return(
-                <Link to={`${history.location.pathname}/${category.url}`} key={category.url}>
-                    <Category name={category.name} className={`category-${category.url}`} />
+                <Link to={`${history.location.pathname}/${category.url}`} key={category.url} className="categories__a">
+                    <Category name={category.name} className={`categories__category-${category.url}`} />
                 </Link>
             )
         }
