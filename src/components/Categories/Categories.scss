@@ -3,14 +3,29 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    background-color: red;
     margin: auto auto 30px;
+
+    @media (orientation: landscape) {
+        flex-direction: row;
+    }
+
+    @media (min-width: 1024px) {
+        height: 50vh;
+        flex-direction: row;
+        margin: 35px auto 30px;
+        // flex-wrap: wrap;
+    }
+
+    @media (min-height: 600px) {
+        flex-wrap: wrap;
+    }
 
     &__a {
         text-decoration: none;
         color: white;
         width: 90%;
         margin: 5px;
+        flex-basis: 32%;
     }
 
     &__button {
@@ -24,12 +39,39 @@
         border: none;
         background: transparent;
         color: white;
+
+        @media (min-width: 800px) {
+            margin: 0 auto;
+        }
     }
 
     &__category {
         background-color: blue;
         height: 200px;
         background-size: cover;
+        position: relative;
+
+        @media (min-width: 500px) {
+            height: 300px;
+        }
+
+        @media (min-width: 800px) {
+            height: 350px;
+        }
+
+        @media (min-width: 900px) {
+            height: 600px;
+        }
+    }
+
+    &__name {
+        text-transform: capitalize;
+        text-align: center;
+        padding: 10px;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 
     &__category-painting {
@@ -42,6 +84,49 @@
 
     &__category-other {
         background-image: url(../../img/portfolio/other/other.jpg);
-        background-position: 0 110%;
+        background-position: 0 100%;
+    }
+
+    &__category-watercolor {
+        background-image: url(../../img/portfolio/painting/watercolor/watercolor.jpg);
+        background-position: 0 15%;
+    }
+
+    &__category-landscape {
+        background-image: url(../../img/portfolio/painting/landscape/landscape.jpg);
+    }
+
+    &__category-abstraction {
+        background-image: url(../../img/portfolio/painting/abstraction/abstraction.jpg);
+        background-position: 0 5%;
+    }
+
+    &__category-printed {
+        background-image: url(../../img/portfolio/fabric/printed/printed.jpg);
+    }
+
+    &__category-unique {
+        background-image: url(../../img/portfolio/fabric/unique/unique.jpg);
+    }
+
+    &__category-realizations {
+        background-image: url(../../img/portfolio/fabric/realizations/realizations.jpg);
+        background-position: 0 30%;
+    }
+
+    &__category-sketches {
+        background-image: url(../../img/portfolio/other/sketches/sketches.jpg);
+        background-position: 0 25%;
+    }
+
+    &__category-drawing {
+        background-image: url(../../img/portfolio/other/drawing/drawing.jpg);
+        background-position: 0 5%;
+
+    }
+
+    &__category-stepbystep {
+        background-image: url(../../img/portfolio/other/stepbystep/stepbystep.jpg);
+        background-position: 0 15%;
     }
 }
