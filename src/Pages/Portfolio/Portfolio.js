@@ -19,18 +19,17 @@ const Portfolio = () => {
                     <Categories categories={categoriesList} path={path} url={url} />
                 </Route>
 
-                <Route exact path={'/portfolio/painting'}>
+                <Route path={'/portfolio/painting'}>
                     <Categories categories={paintingCategoriesList} path={path} url={url} goBack={true} />
                 </Route>
 
-                <Route exact path={'/portfolio/fabric'}>
+                <Route path={'/portfolio/fabric'}>
                     <Categories categories={fabricCategoriesList} path={path} url={url} goBack={true} />
                 </Route>
 
-                <Route exact path={'/portfolio/other'}>
+                <Route path={'/portfolio/other'}>
                     <Categories categories={otherCategoriesList} path={path} url={url} goBack={true} />
                 </Route>
-
 
 
             </Switch>

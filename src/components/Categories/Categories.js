@@ -1,11 +1,13 @@
 import React from 'react';
-import {Link, Route, useRouteMatch, useHistory} from 'react-router-dom';
+import {Link, Route, Switch, useRouteMatch, useHistory} from 'react-router-dom';
 import Category from '../Category/Category';
+import PortfolioGallery from '../PortfolioGallery/PortfolioGallery';
 
 const Categories = ({categories, goBack, path, url}) => {
     // let { path, url } = useRouteMatch();
     let history = useHistory();
     console.log(history)
+    console.log(categories)
 
     const links = categories.map(category => {
         if (goBack === false){
@@ -23,10 +25,25 @@ const Categories = ({categories, goBack, path, url}) => {
         }
     })
 
+    const routes = categories.map(category => {
+        return(
+            <Route exact path={`/portfolio/${categories[0].group}/${category.url}`} key={category.url}>
+                <PortfolioGallery name={category.url} />
+            </Route>
+        )
+
+    })
+
     return (
         <div className="categories">
+
+            <Route exact path={goBack ? `/portfolio/${categories[0].group}` : `/portfolio`}>
                 {links}
-                {goBack ? <Link><button className="categories__button" onClick={history.goBack} >Powrót</button></Link> : ''}
+                {goBack ? <button className="categories__button" onClick={history.goBack} >Powrót</button> : ''}
+            </Route>
+
+            {routes}
+
         </div>
     )
 }
