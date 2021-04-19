@@ -2,35 +2,31 @@ import React from 'react';
 import {Link, Route, useRouteMatch, useHistory} from 'react-router-dom';
 import Category from '../Category/Category';
 
-const Categories = ({categories, goBack}) => {
-    let { path, url } = useRouteMatch();
+const Categories = ({categories, goBack, path, url}) => {
+    // let { path, url } = useRouteMatch();
     let history = useHistory();
-    console.log(path)
+    console.log(history)
 
     const links = categories.map(category => {
-        return (
-            <Link to={`${url}/:${category.url}`} key={Math.random()}>
-                <Category name={category.name} className={`category-${category.url}`} />
-            </Link>
-        )
-    })
-
-    const routes = categories.map(category => {
-        return (
-            <Route path={`${path}/:${category.url}`} key={category.url}>
-                {category.name}
-            </Route>
-        )
+        if (goBack === false){
+            return (
+                <Link to={`${url}/${category.url}`} key={category.url}>
+                    <Category name={category.name} className={`category-${category.url}`} />
+                </Link>
+            )
+        } else {
+            return(
+                <Link to={`${history.location.pathname}/${category.url}`} key={category.url}>
+                    <Category name={category.name} className={`category-${category.url}`} />
+                </Link>
+            )
+        }
     })
 
     return (
         <div className="categories">
-            <Route exact path={path} >
                 {links}
                 {goBack ? <Link><button className="categories__button" onClick={history.goBack} >Powrót</button></Link> : ''}
-            </Route>
-
-            {routes}
         </div>
     )
 }

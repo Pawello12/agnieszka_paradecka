@@ -15,22 +15,22 @@ const Portfolio = () => {
         <motion.main className="main main-portfolio" initial={pageTransition.initial} animate={pageTransition.animate} exit={pageTransition.exit} transition={pageTransition.duration}>
 
             <Switch>
-                <Route path={'/portfolio'}>
-                    <Categories categories={categoriesList} />
+                <Route exact path={'/portfolio'}>
+                    <Categories categories={categoriesList} path={path} url={url} />
                 </Route>
 
-
-                <Route exact path={`/portfolio/:painting`}>
-                    <Categories categories={paintingCategoriesList} goBack={true} />
+                <Route exact path={'/portfolio/painting'}>
+                    <Categories categories={paintingCategoriesList} path={path} url={url} goBack={true} />
                 </Route>
 
-                <Route exact path={`/portfolio/:fabric`}>
-                    <Categories categories={fabricCategoriesList} goBack={true} />
+                <Route exact path={'/portfolio/fabric'}>
+                    <Categories categories={fabricCategoriesList} path={path} url={url} goBack={true} />
                 </Route>
 
-                <Route exact path={`/portfolio/:other`}>
-                    <Categories categories={otherCategoriesList} goBack={true} />
+                <Route exact path={'/portfolio/other'}>
+                    <Categories categories={otherCategoriesList} path={path} url={url} goBack={true} />
                 </Route>
+
 
 
             </Switch>
