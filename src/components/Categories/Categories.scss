@@ -43,12 +43,22 @@
         @media (min-width: 800px) {
             margin: 0 auto;
         }
+
+        @media (min-width: 1024px) {
+            transition: transform 0.2s;
+        }
+    }
+
+    &__button:hover {
+        @media (min-width: 1024px) {
+            transform: scale(1.2);
+        }
     }
 
     &__category {
-        background-color: blue;
         height: 200px;
         background-size: cover;
+        background-position: center;
         position: relative;
 
         @media (min-width: 500px) {
@@ -62,6 +72,18 @@
         @media (min-width: 900px) {
             height: 600px;
         }
+
+        @media (min-width: 1024px) {
+            filter: grayscale(1);
+            transition: filter 0.3s;
+            overflow: hidden;
+        }
+    }
+
+    &__category:hover {
+        @media (min-width: 1024px) {
+            filter: grayscale(0);
+        }
     }
 
     &__name {
@@ -72,6 +94,15 @@
         position: absolute;
         bottom: 0;
         width: 100%;
+
+        @media (min-width: 1024px) {
+            line-height: 30px;
+            transition: transform 0.3s;
+        }
+    }
+
+    &__category:hover &__name {
+        transform: scale(1.1);
     }
 
     &__category-painting {
