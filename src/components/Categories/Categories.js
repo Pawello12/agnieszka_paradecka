@@ -5,10 +5,11 @@ import Category from '../Category/Category';
 const Categories = ({categories, goBack}) => {
     let { path, url } = useRouteMatch();
     let history = useHistory();
+    console.log(path)
 
     const links = categories.map(category => {
         return (
-            <Link to={`${url}/:${category.url}`} key={category.url}>
+            <Link to={`${url}/:${category.url}`} key={Math.random()}>
                 <Category name={category.name} className={`category-${category.url}`} />
             </Link>
         )

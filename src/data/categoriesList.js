@@ -16,44 +16,53 @@ export const categoriesList = [
 export const paintingCategoriesList = [
     {
         name: 'akwarela',
-        url: 'watercolor'
+        url: 'watercolor',
+        group: 'painting'
     },
     {
         name: 'pejzaż',
-        url: 'landscape'
+        url: 'landscape',
+        group: 'painting'
     },
     {
         name: 'abstrakcja',
-        url: 'abstraction'
+        url: 'abstraction',
+        group: 'painting'
     }
 ];
 
 export const fabricCategoriesList = [
     {
         name: 'tkanina drukowana',
-        url: 'printed'
+        url: 'printed',
+        group: 'fabric'
     },
     {
         name: 'tkanina unikatowa',
-        url: 'unique'
+        url: 'unique',
+        group: 'fabric'
     },
     {
         name: 'realizacje',
-        url: 'realizations'
+        url: 'realizations',
+        group: 'fabric'
     }
 ];
 
 export const otherCategoriesList = [
     {
         name: 'szkice',
-        url: 'sketches'
+        url: 'sketches',
+        group: 'other'
     },
     {
         name: 'rysunek',
-        url: 'drawing'
+        url: 'drawing',
+        group: 'other'
     },
     {
         name: 'krok po kroku',
-        url: 'stepbystep'
+        url: 'stepbystep',
+        group: 'other'
     }
 ];
