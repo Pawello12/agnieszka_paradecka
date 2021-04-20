@@ -6,6 +6,8 @@ const Gallery =({name, group}) => {
 
     const images = imagesGallery.[group].[name];
 
+
+
     return(
         <div className="portfolio-gallery__gallery">
             <h2 className="portfolio-gallery__title">{images[0].category}</h2>
@@ -14,7 +16,6 @@ const Gallery =({name, group}) => {
             lazyLoad={true}
             originalClass={'portfolio-gallery__image'}
             thumbnailPosition={'bottom'}
-
             />
         </div>
     )

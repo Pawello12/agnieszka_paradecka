@@ -6,8 +6,22 @@ import printedImage5 from '../img/portfolio/fabric/printed/images/5.JPG';
 import printedImage6 from '../img/portfolio/fabric/printed/images/6.JPG';
 import printedImage7 from '../img/portfolio/fabric/printed/images/7.JPG';
 
+
+
 const imagesGallery = {
-    painting: '',
+    painting: {
+        watercolor: [
+            {
+                category: 'Akwarela',
+                original: printedImage1,
+                thumbnail: printedImage1,
+                originalTitle: 'Tkanina Geometrica',
+                description: 'Tkanina Geometrica \n sitodruk, bawełna, 150 x 300 cm'
+            }
+        ],
+        landscape: [],
+        abstraction: []
+    },
     fabric: {
         printed: [
             {
@@ -63,7 +77,11 @@ const imagesGallery = {
         unique: '',
         realizations: ''
     },
-    other: ''
+    other: {
+        sketches: [],
+        drawing: [],
+        stepbystep: []
+    }
 
     };
 
