@@ -1,8 +1,11 @@
 import React from 'react';
+import Gallery from './Gallery/Gallery';
 
-const PortfolioGallery = (props) => {
+const PortfolioGallery = ({name}) => {
     return (
-        <div>{props.name}</div>
+        <div className="portfolio-gallery">
+            <Gallery name={name} />
+        </div>
     )
 }
 
