@@ -1,6 +1,5 @@
 import React from 'react';
 import {Route, Switch, NavLink, Link, useRouteMatch} from 'react-router-dom';
-import Painting from './Painting/Painting';
 import {motion} from 'framer-motion';
 import pageTransition from '../../config/pageTransition';
 import Category from '../../components/Category/Category';
