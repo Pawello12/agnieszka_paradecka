@@ -29,7 +29,7 @@ const Categories = ({categories, goBack, path, url}) => {
     const routes = categories.map(category => {
         return(
             <Route exact path={`/portfolio/${categories[0].group}/${category.url}`} key={category.url}>
-                <PortfolioGallery name={category.url} />
+                <PortfolioGallery name={category.url} group={category.group} />
             </Route>
         )
 
