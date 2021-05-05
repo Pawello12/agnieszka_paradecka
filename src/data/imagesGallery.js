@@ -16,6 +16,13 @@ import realizationsImage3 from '../img/portfolio/fabric/realizations/images/3.JP
 import realizationsImage4 from '../img/portfolio/fabric/realizations/images/4.JPG';
 import realizationsImage5 from '../img/portfolio/fabric/realizations/images/5.JPG';
 
+import uniqueImage1 from '../img/portfolio/fabric/unique/images/1.JPG';
+import uniqueImage2 from '../img/portfolio/fabric/unique/images/2.JPG';
+import uniqueImage3 from '../img/portfolio/fabric/unique/images/3.JPG';
+import uniqueImage4 from '../img/portfolio/fabric/unique/images/4.JPG';
+import uniqueImage5 from '../img/portfolio/fabric/unique/images/5.JPG';
+import uniqueImage6 from '../img/portfolio/fabric/unique/images/6.JPG';
+
 const imagesGallery = {
     painting: {
         watercolor: [
@@ -82,7 +89,50 @@ const imagesGallery = {
                 description: 'Tkanina Tygrys \n druk sublimacyjny na podłożu poliestrowym, 120 x 280 cm'
             },
         ],
-        unique: '',
+        unique: [
+            {
+                category: 'Tkanina unikatowa',
+                original: uniqueImage1,
+                thumbnail: uniqueImage1,
+                originalTitle: 's',
+                description: 's'
+            },
+            {
+                category: 'Tkanina unikatowa',
+                original: uniqueImage2,
+                thumbnail: uniqueImage2,
+                originalTitle: 's',
+                description: 's'
+            },
+            {
+                category: 'Tkanina unikatowa',
+                original: uniqueImage3,
+                thumbnail: uniqueImage3,
+                originalTitle: 's',
+                description: 's'
+            },
+            {
+                category: 'Tkanina unikatowa',
+                original: uniqueImage4,
+                thumbnail: uniqueImage4,
+                originalTitle: 's',
+                description: 's'
+            },
+            {
+                category: 'Tkanina unikatowa',
+                original: uniqueImage5,
+                thumbnail: uniqueImage5,
+                originalTitle: 's',
+                description: 's'
+            },
+            {
+                category: 'Tkanina unikatowa',
+                original: uniqueImage6,
+                thumbnail: uniqueImage6,
+                originalTitle: 's',
+                description: 's'
+            },
+        ],
         realizations: [
             {
                 category: 'Realizacje',
