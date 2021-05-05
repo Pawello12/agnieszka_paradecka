@@ -42,6 +42,19 @@ import watercolorImage16 from '../img/portfolio/painting/watercolor/images/16.jp
 import watercolorImage17 from '../img/portfolio/painting/watercolor/images/17.jpg';
 import watercolorImage18 from '../img/portfolio/painting/watercolor/images/18.jpg';
 
+import abstractionImage1 from '../img/portfolio/painting/abstraction/images/1.JPG';
+
+import landscapeImage1 from '../img/portfolio/painting/landscape/images/1.jpg';
+import landscapeImage2 from '../img/portfolio/painting/landscape/images/2.jpg';
+import landscapeImage3 from '../img/portfolio/painting/landscape/images/3.jpg';
+import landscapeImage4 from '../img/portfolio/painting/landscape/images/4.jpg';
+import landscapeImage5 from '../img/portfolio/painting/landscape/images/5.jpg';
+import landscapeImage6 from '../img/portfolio/painting/landscape/images/6.jpg';
+import landscapeImage7 from '../img/portfolio/painting/landscape/images/7.jpg';
+import landscapeImage8 from '../img/portfolio/painting/landscape/images/8.jpg';
+import landscapeImage9 from '../img/portfolio/painting/landscape/images/9.jpg';
+import landscapeImage10 from '../img/portfolio/painting/landscape/images/10.jpg';
+
 const imagesGallery = {
     painting: {
         watercolor: [
@@ -172,8 +185,87 @@ const imagesGallery = {
                 description: 'Żołna'
             }
         ],
-        landscape: [],
-        abstraction: []
+        landscape: [
+            {
+                category: 'Pejzaż',
+                original: landscapeImage1,
+                thumbnail: landscapeImage1,
+                originalTitle: 'Bez tytułu',
+                description: 'Bez tytułu \n 2020, 50x70'
+            },
+            {
+                category: 'Pejzaż',
+                original: landscapeImage2,
+                thumbnail: landscapeImage2,
+                originalTitle: 'Może morze',
+                description: 'Może morze \n 2018, 50x70'
+            },
+            {
+                category: 'Pejzaż',
+                original: landscapeImage3,
+                thumbnail: landscapeImage3,
+                originalTitle: 'Na zdrowie',
+                description: 'Na zdrowie \n 2018, 50x70'
+            },
+            {
+                category: 'Pejzaż',
+                original: landscapeImage4,
+                thumbnail: landscapeImage4,
+                originalTitle: 'Nad stawem',
+                description: 'Nad stawem \n 2019, 50x70'
+            },
+            {
+                category: 'Pejzaż',
+                original: landscapeImage5,
+                thumbnail: landscapeImage5,
+                originalTitle: 'Oczekiwanie',
+                description: 'Oczekiwanie \n 2019, 50x70'
+            },
+            {
+                category: 'Pejzaż',
+                original: landscapeImage6,
+                thumbnail: landscapeImage6,
+                originalTitle: ' Park Poniatowskiego',
+                description: ' Park Poniatowskiego \n 2018, 50x70'
+            },
+            {
+                category: 'Pejzaż',
+                original: landscapeImage7,
+                thumbnail: landscapeImage7,
+                originalTitle: 'Pejzaż jesienny',
+                description: 'Pejzaż jesienny \n 2018, 50x70'
+            },
+            {
+                category: 'Pejzaż',
+                original: landscapeImage8,
+                thumbnail: landscapeImage8,
+                originalTitle: 'Zimowo',
+                description: 'Zimowo \n 2018, 70x50'
+            },
+            {
+                category: 'Pejzaż',
+                original: landscapeImage9,
+                thumbnail: landscapeImage9,
+                originalTitle: 'Ponad',
+                description: 'Ponad \n 2020, 80x60'
+            },
+            {
+                category: 'Pejzaż',
+                original: landscapeImage10,
+                thumbnail: landscapeImage10,
+                originalTitle: 'Ta chwila',
+                description: 'Ta chwila \n 2020, 70x50'
+            },
+        ],
+        abstraction: [
+            {
+                category: 'Abstrakcja',
+                original: abstractionImage1,
+                thumbnail: abstractionImage1,
+                originalTitle: 'Fantasmagoria',
+                description: 'Fantasmagoria \n 2019, 70x50'
+            }
+        ]
     },
     fabric: {
         printed: [
