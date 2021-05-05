@@ -23,15 +23,153 @@ import uniqueImage4 from '../img/portfolio/fabric/unique/images/4.JPG';
 import uniqueImage5 from '../img/portfolio/fabric/unique/images/5.JPG';
 import uniqueImage6 from '../img/portfolio/fabric/unique/images/6.JPG';
 
+import watercolorImage1 from '../img/portfolio/painting/watercolor/images/1.jpg';
+import watercolorImage2 from '../img/portfolio/painting/watercolor/images/2.jpg';
+import watercolorImage3 from '../img/portfolio/painting/watercolor/images/3.jpg';
+import watercolorImage4 from '../img/portfolio/painting/watercolor/images/4.jpg';
+import watercolorImage5 from '../img/portfolio/painting/watercolor/images/5.jpg';
+import watercolorImage6 from '../img/portfolio/painting/watercolor/images/6.jpg';
+import watercolorImage7 from '../img/portfolio/painting/watercolor/images/7.jpg';
+import watercolorImage8 from '../img/portfolio/painting/watercolor/images/8.jpg';
+import watercolorImage9 from '../img/portfolio/painting/watercolor/images/9.jpg';
+import watercolorImage10 from '../img/portfolio/painting/watercolor/images/10.jpg';
+import watercolorImage11 from '../img/portfolio/painting/watercolor/images/11.jpg';
+import watercolorImage12 from '../img/portfolio/painting/watercolor/images/12.jpg';
+import watercolorImage13 from '../img/portfolio/painting/watercolor/images/13.jpg';
+import watercolorImage14 from '../img/portfolio/painting/watercolor/images/14.jpg';
+import watercolorImage15 from '../img/portfolio/painting/watercolor/images/15.jpg';
+import watercolorImage16 from '../img/portfolio/painting/watercolor/images/16.jpg';
+import watercolorImage17 from '../img/portfolio/painting/watercolor/images/17.jpg';
+import watercolorImage18 from '../img/portfolio/painting/watercolor/images/18.jpg';
+
 const imagesGallery = {
     painting: {
         watercolor: [
             {
                 category: 'Akwarela',
-                original: printedImage1,
-                thumbnail: printedImage1,
-                originalTitle: 'Tkanina Geometrica',
-                description: 'Tkanina Geometrica \n sitodruk, bawełna, 150 x 300 cm'
+                original: watercolorImage1,
+                thumbnail: watercolorImage1,
+                originalTitle: 'Makolągwa',
+                description: 'Makolągwa'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage2,
+                thumbnail: watercolorImage2,
+                originalTitle: 'Białorzytka',
+                description: 'Białorzytka'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage3,
+                thumbnail: watercolorImage3,
+                originalTitle: 'Czeczotka',
+                description: 'Czeczotka'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage4,
+                thumbnail: watercolorImage4,
+                originalTitle: 'Rudzik',
+                description: 'Rudzik'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage5,
+                thumbnail: watercolorImage5,
+                originalTitle: 'Zięba',
+                description: 'Zięba'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage6,
+                thumbnail: watercolorImage6,
+                originalTitle: 'Mysikrólik',
+                description: 'Mysikrólik'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage7,
+                thumbnail: watercolorImage7,
+                originalTitle: 'Drozd',
+                description: 'Drozd'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage8,
+                thumbnail: watercolorImage8,
+                originalTitle: 'Podróżniczek',
+                description: 'Podróżniczek'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage9,
+                thumbnail: watercolorImage9,
+                originalTitle: 'Gil',
+                description: 'Gil'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage10,
+                thumbnail: watercolorImage10,
+                originalTitle: 'Zimorodek',
+                description: 'Zimorodek'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage11,
+                thumbnail: watercolorImage11,
+                originalTitle: 'Wróbel',
+                description: 'Wróbel'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage12,
+                thumbnail: watercolorImage12,
+                originalTitle: 'Sójka',
+                description: 'Sójka'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage13,
+                thumbnail: watercolorImage13,
+                originalTitle: 'Kowalik',
+                description: 'Kowalik'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage14,
+                thumbnail: watercolorImage14,
+                originalTitle: 'Ortolan',
+                description: 'Ortolan'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage15,
+                thumbnail: watercolorImage15,
+                originalTitle: 'Wąsatka',
+                description: 'Wąsatka'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage16,
+                thumbnail: watercolorImage16,
+                originalTitle: 'Sowa',
+                description: 'Sowa'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage17,
+                thumbnail: watercolorImage17,
+                originalTitle: 'Raniuszek',
+                description: 'Raniuszek'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage18,
+                thumbnail: watercolorImage18,
+                originalTitle: 'Żołna',
+                description: 'Żołna'
             }
         ],
         landscape: [],
