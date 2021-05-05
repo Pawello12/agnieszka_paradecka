@@ -94,43 +94,43 @@ const imagesGallery = {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage1,
                 thumbnail: uniqueImage1,
-                originalTitle: 's',
-                description: 's'
+                originalTitle: 'Instaslacja dyplomowa',
+                description: 'Instaslacja dyplomowa'
             },
             {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage2,
                 thumbnail: uniqueImage2,
-                originalTitle: 's',
-                description: 's'
+                originalTitle: 'Instalacja dyplomowa',
+                description: 'Instalacja dyplomowa'
             },
             {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage3,
                 thumbnail: uniqueImage3,
-                originalTitle: 's',
-                description: 's'
+                originalTitle: 'Futrzak',
+                description: 'Futrzak'
             },
             {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage4,
                 thumbnail: uniqueImage4,
-                originalTitle: 's',
-                description: 's'
+                originalTitle: 'Futrzak',
+                description: 'Futrzak \n rewers'
             },
             {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage5,
                 thumbnail: uniqueImage5,
-                originalTitle: 's',
-                description: 's'
+                originalTitle: 'Zimowa',
+                description: 'Zimowa'
             },
             {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage6,
                 thumbnail: uniqueImage6,
-                originalTitle: 's',
-                description: 's'
+                originalTitle: 'Obiekt 1',
+                description: 'Obiekt 1'
             },
         ],
         realizations: [
