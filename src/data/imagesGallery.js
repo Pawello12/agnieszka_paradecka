@@ -6,7 +6,15 @@ import printedImage5 from '../img/portfolio/fabric/printed/images/5.JPG';
 import printedImage6 from '../img/portfolio/fabric/printed/images/6.JPG';
 import printedImage7 from '../img/portfolio/fabric/printed/images/7.JPG';
 
+import sketchesImage1 from '../img/portfolio/other/sketches/images/1.jpg';
+import sketchesImage2 from '../img/portfolio/other/sketches/images/2.jpg';
+import sketchesImage3 from '../img/portfolio/other/sketches/images/3.jpg';
 
+import realizationsImage1 from '../img/portfolio/fabric/realizations/images/1.JPG';
+import realizationsImage2 from '../img/portfolio/fabric/realizations/images/2.JPG';
+import realizationsImage3 from '../img/portfolio/fabric/realizations/images/3.JPG';
+import realizationsImage4 from '../img/portfolio/fabric/realizations/images/4.JPG';
+import realizationsImage5 from '../img/portfolio/fabric/realizations/images/5.JPG';
 
 const imagesGallery = {
     painting: {
@@ -75,10 +83,68 @@ const imagesGallery = {
             },
         ],
         unique: '',
-        realizations: ''
+        realizations: [
+            {
+                category: 'Realizacje',
+                original: realizationsImage1,
+                thumbnail: realizationsImage1,
+                originalTitle: 'Poduszki Mikro',
+                description: 'Poduszki Mikro \n druk sublimacyjny na podłożu poliestrowym'
+            },
+            {
+                category: 'Realizacje',
+                original: realizationsImage2,
+                thumbnail: realizationsImage2,
+                originalTitle: 'Tkanina Geometrica 2',
+                description: 'Tkanina Geometrica 2 \n sitodruk'
+            },
+            {
+                category: 'Realizacje',
+                original: realizationsImage3,
+                thumbnail: realizationsImage3,
+                originalTitle: 'Poduszki w motyle',
+                description: 'Poduszki w motyle \n druk sublimacyjny na podłożu poliestrowym'
+            },
+            {
+                category: 'Realizacje',
+                original: realizationsImage4,
+                thumbnail: realizationsImage4,
+                originalTitle: 'Poduszki Mikro',
+                description: 'Poduszki Mikro \n druk sublimacyjny na podłożu poliestrowym'
+            },
+            {
+                category: 'Realizacje',
+                original: realizationsImage5,
+                thumbnail: realizationsImage5,
+                originalTitle: 'Tkanina Geometrica 2',
+                description: 'Tkanina Geometrica 2 \n sitodruk'
+            },
+        ]
     },
     other: {
-        sketches: [],
+        sketches: [
+            {
+                category: 'Szkice',
+                original: sketchesImage1,
+                thumbnail: sketchesImage1,
+                originalTitle: 'Szkic 1',
+                description: 'Szkic 1'
+            },
+            {
+                category: 'Szkice',
+                original: sketchesImage2,
+                thumbnail: sketchesImage2,
+                originalTitle: 'Szkic 2',
+                description: 'Szkic 2'
+            },
+            {
+                category: 'Szkice',
+                original: sketchesImage3,
+                thumbnail: sketchesImage3,
+                originalTitle: 'Szkic 3',
+                description: 'Szkic 3'
+            },
+        ],
         drawing: [],
         stepbystep: []
     }
