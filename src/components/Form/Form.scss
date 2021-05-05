@@ -40,4 +40,19 @@
         }
     }
 
+    &__info {
+        height: 21px;
+    }
+
+    &__info-positive,
+    &__info-negative {
+        display: none;
+    }
+
+    &__info-active {
+        display: block;
+    }
+
+
+
 }
