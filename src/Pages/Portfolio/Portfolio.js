@@ -1,8 +1,8 @@
 import React from 'react';
-import {Route, Switch, NavLink, Link, useRouteMatch} from 'react-router-dom';
+import {Route, Switch, useRouteMatch} from 'react-router-dom';
 import {motion} from 'framer-motion';
 import pageTransition from '../../config/pageTransition';
-import Category from '../../components/Category/Category';
+// import Category from '../../components/Category/Category';
 import Categories from '../../components/Categories/Categories';
 import {categoriesList, paintingCategoriesList, fabricCategoriesList, otherCategoriesList} from '../../data/categoriesList';
 import './Portfolio.scss';

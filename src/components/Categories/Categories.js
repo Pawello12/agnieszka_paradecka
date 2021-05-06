@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, Route, Switch, useRouteMatch, useHistory} from 'react-router-dom';
+import {Link, Route, useHistory} from 'react-router-dom';
 import Category from '../Category/Category';
 import PortfolioGallery from '../PortfolioGallery/PortfolioGallery';
 import './Categories.scss'
@@ -7,8 +7,8 @@ import './Categories.scss'
 const Categories = ({categories, goBack, path, url}) => {
     // let { path, url } = useRouteMatch();
     let history = useHistory();
-    console.log(history)
-    console.log(categories)
+    // console.log(history)
+    // console.log(categories)
 
     const links = categories.map(category => {
         if (goBack === false){

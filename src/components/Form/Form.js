@@ -27,7 +27,7 @@ const Form = () => {
 
         messages.forEach(message => message.classList.remove('form__info-active'));
 
-        console.log(name, email, message);
+        // console.log(name, email, message);
         emailjs.sendForm(serviceData.serviceID, serviceData.templateID, e.target, serviceData.userID)
         .then((result) => {
             console.log(result.text);
