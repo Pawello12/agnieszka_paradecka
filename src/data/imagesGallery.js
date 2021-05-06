@@ -521,8 +521,8 @@ const imagesGallery = {
         stepbystep: [
             {
                 category: 'Krok po kroku',
-                original: drawingImage1,
-                thumbnail: drawingImage3,
+                original: watercolorImage17,
+                thumbnail: watercolorImage17,
                 showPlayButton: false,
                 renderItem: ()=> (
                                     <video autoPlay controls className="main-portfolio__video">
