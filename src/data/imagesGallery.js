@@ -55,6 +55,10 @@ import landscapeImage8 from '../img/portfolio/painting/landscape/images/8.jpg';
 import landscapeImage9 from '../img/portfolio/painting/landscape/images/9.jpg';
 import landscapeImage10 from '../img/portfolio/painting/landscape/images/10.jpg';
 
+import drawingImage1 from '../img/portfolio/other/drawing/images/1.JPG';
+import drawingImage2 from '../img/portfolio/other/drawing/images/2.JPG';
+import drawingImage3 from '../img/portfolio/other/drawing/images/3.JPG';
+
 const imagesGallery = {
     painting: {
         watercolor: [
@@ -425,7 +429,29 @@ const imagesGallery = {
                 description: 'Szkic 3'
             },
         ],
-        drawing: [],
+        drawing: [
+            {
+                category: 'Rysunek',
+                original: drawingImage1,
+                thumbnail: drawingImage1,
+                originalTitle: 'Postać 1',
+                description: 'Postac 1 \n technika - tusz akryl'
+            },
+            {
+                category: 'Rysunek',
+                original: drawingImage2,
+                thumbnail: drawingImage2,
+                originalTitle: 'Postać 2',
+                description: 'Postac 2 \n technika - ołówek'
+            },
+            {
+                category: 'Rysunek',
+                original: drawingImage3,
+                thumbnail: drawingImage3,
+                originalTitle: 'Postać 3',
+                description: 'Postac 3 \n technika tusz'
+            },
+        ],
         stepbystep: []
     }
 
