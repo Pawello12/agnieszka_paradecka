@@ -67,6 +67,8 @@ import drawingImage1 from '../img/portfolio/other/drawing/images/1.JPG';
 import drawingImage2 from '../img/portfolio/other/drawing/images/2.JPG';
 import drawingImage3 from '../img/portfolio/other/drawing/images/3.JPG';
 
+import stepbystepVideo1 from '../img/portfolio/other/stepbystep/videos/raniuszek.mp4';
+
 const imagesGallery = {
     painting: {
         watercolor: [
@@ -516,7 +518,19 @@ const imagesGallery = {
                 description: 'Postac 3 \n technika tusz'
             },
         ],
-        stepbystep: []
+        stepbystep: [
+            {
+                category: 'Krok po kroku',
+                original: drawingImage1,
+                thumbnail: drawingImage3,
+                showPlayButton: false,
+                renderItem: ()=> (
+                                    <video autoPlay controls className="main-portfolio__video">
+                                        <source src={stepbystepVideo1} type="video/mp4"></source>
+                                    </video>
+                                )
+            }
+        ]
     }
 
     };

@@ -16,6 +16,8 @@ const Gallery =({name, group}) => {
             lazyLoad={true}
             originalClass={'portfolio-gallery__image'}
             thumbnailPosition={'bottom'}
+            showPlayButton={images[0].showPlayButton}
+            showFullscreenButton={images[0].showPlayButton}
             />
         </div>
     )

@@ -1,1 +1,23 @@
-.main-portfolio {}
+.main-portfolio {
+    &__video {
+        width: 70%;
+        height: auto;
+
+        @media (min-height: 700px) {
+            width: 100%;
+        }
+
+        @media (min-width: 700px) {
+            height: 70vh;
+        }
+
+        @media(orientation: landscape) {
+            width: auto;
+            height: 80vh;
+        }
+
+        @media (orientation: landscape) and (min-width: 1024px) {
+            height: 58vh;
+        }
+    }
+}
