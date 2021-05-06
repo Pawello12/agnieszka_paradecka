@@ -2,6 +2,8 @@ import React from 'react';
 import image1 from '../../img/home/1.jpg';
 import image2 from '../../img/home/2.jpg';
 import image3 from '../../img/home/3.jpg';
+import image4 from '../../img/home/4.jpg';
+import image5 from '../../img/home/5.jpg';
 
 import ImageGallery from 'react-image-gallery';
 
@@ -11,22 +13,33 @@ const images = [
     {
         original: image1,
         thumbnail: image1,
-        description: `Tytuł
-            rok, technika`,
+        description: `Pejzaż jesienny
+            2018, 50x70`,
         originalClass: "carousel__img",
         originalLabel: "sasdasdsad"
     },
     {
         original: image2,
         thumbnail: image2,
-        description: `adasda
-        x`
+        description: `Czeczotka`
     },
     {
         original: image3,
         thumbnail: image3,
-        description: "asdasdasd"
-    }
+        description: `Tkanina Maki
+        druk sublimacyjny na podłożu poliestrowym`
+    },
+    {
+        original: image4,
+        thumbnail: image4,
+        description: `Fantasmagoria
+        2019, 70x50`
+    },
+    {
+        original: image5,
+        thumbnail: image5,
+        description: `Futrzak`
+    },
 ];
 
 
