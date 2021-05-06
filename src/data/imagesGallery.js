@@ -41,6 +41,14 @@ import watercolorImage15 from '../img/portfolio/painting/watercolor/images/15.jp
 import watercolorImage16 from '../img/portfolio/painting/watercolor/images/16.jpg';
 import watercolorImage17 from '../img/portfolio/painting/watercolor/images/17.jpg';
 import watercolorImage18 from '../img/portfolio/painting/watercolor/images/18.jpg';
+import watercolorImage19 from '../img/portfolio/painting/watercolor/images/19.jpg';
+import watercolorImage20 from '../img/portfolio/painting/watercolor/images/20.jpg';
+import watercolorImage21 from '../img/portfolio/painting/watercolor/images/21.jpg';
+import watercolorImage22 from '../img/portfolio/painting/watercolor/images/22.jpg';
+import watercolorImage23 from '../img/portfolio/painting/watercolor/images/23.jpg';
+import watercolorImage24 from '../img/portfolio/painting/watercolor/images/24.jpg';
+import watercolorImage25 from '../img/portfolio/painting/watercolor/images/25.jpg';
+import watercolorImage26 from '../img/portfolio/painting/watercolor/images/26.jpg';
 
 import abstractionImage1 from '../img/portfolio/painting/abstraction/images/1.JPG';
 
@@ -187,7 +195,63 @@ const imagesGallery = {
                 thumbnail: watercolorImage18,
                 originalTitle: 'Żołna',
                 description: 'Żołna'
-            }
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage19,
+                thumbnail: watercolorImage19,
+                originalTitle: 'Pogrzeb I',
+                description: 'Pogrzeb I \n Fragment dyplomu magisterskiego 2018'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage20,
+                thumbnail: watercolorImage20,
+                originalTitle: 'Prababcia z wnukami',
+                description: 'Prababcia z wnukami \n Fragment dyplomu magisterskiego 2018'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage21,
+                thumbnail: watercolorImage21,
+                originalTitle: 'Nowy II',
+                description: 'Nowy II \n Fragment dyplomu magisterskiego 2018'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage22,
+                thumbnail: watercolorImage22,
+                originalTitle: 'Piotrek i Ania',
+                description: 'Piotrek i Ania \n Fragment dyplomu magisterskiego 2018'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage23,
+                thumbnail: watercolorImage23,
+                originalTitle: 'Razem I',
+                description: 'Razem I \n Fragment dyplomu magisterskiego 2018'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage24,
+                thumbnail: watercolorImage24,
+                originalTitle: 'Ciocia Stasia z Magdą',
+                description: 'Ciocia Stasia z Magdą \n Fragment dyplomu magisterskiego 2018'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage25,
+                thumbnail: watercolorImage25,
+                originalTitle: 'Pogrzeb IV',
+                description: 'Pogrzeb IV \n Fragment dyplomu magisterskiego 2018'
+            },
+            {
+                category: 'Akwarela',
+                original: watercolorImage26,
+                thumbnail: watercolorImage26,
+                originalTitle: 'Babcia z mamą',
+                description: 'Babcia z mamą \n Fragment dyplomu magisterskiego 2018'
+            },
         ],
         landscape: [
             {
