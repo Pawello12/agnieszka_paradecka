@@ -77,182 +77,234 @@ const imagesGallery = {
                 original: watercolorImage1,
                 thumbnail: watercolorImage1,
                 originalTitle: 'Makolągwa',
-                description: 'Makolągwa'
+                description: 'Makolągwa',
+                originalAlt: 'Makolągwa',
+                thumbnailAlt: 'Makolągwa'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage2,
                 thumbnail: watercolorImage2,
                 originalTitle: 'Białorzytka',
-                description: 'Białorzytka'
+                description: 'Białorzytka',
+                originalAlt: 'Białorzytka',
+                thumbnailAlt: 'Białorzytka'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage3,
                 thumbnail: watercolorImage3,
                 originalTitle: 'Czeczotka',
-                description: 'Czeczotka'
+                description: 'Czeczotka',
+                originalAlt: 'Czeczotka',
+                thumbnailAlt: 'Czeczotka'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage4,
                 thumbnail: watercolorImage4,
                 originalTitle: 'Rudzik',
-                description: 'Rudzik'
+                description: 'Rudzik',
+                originalAlt: 'Rudzik',
+                thumbnailAlt: 'Rudzik'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage5,
                 thumbnail: watercolorImage5,
                 originalTitle: 'Zięba',
-                description: 'Zięba'
+                description: 'Zięba',
+                originalAlt: 'Zięba',
+                thumbnailAlt: 'Zięba'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage6,
                 thumbnail: watercolorImage6,
                 originalTitle: 'Mysikrólik',
-                description: 'Mysikrólik'
+                description: 'Mysikrólik',
+                originalAlt: 'Mysikrólik',
+                thumbnailAlt: 'Mysikrólik'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage7,
                 thumbnail: watercolorImage7,
                 originalTitle: 'Drozd',
-                description: 'Drozd'
+                description: 'Drozd',
+                originalAlt: 'Drozd',
+                thumbnailAlt: 'Drozd'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage8,
                 thumbnail: watercolorImage8,
                 originalTitle: 'Podróżniczek',
-                description: 'Podróżniczek'
+                description: 'Podróżniczek',
+                originalAlt: 'Podróżniczek',
+                thumbnailAlt: 'Podróżniczek'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage9,
                 thumbnail: watercolorImage9,
                 originalTitle: 'Gil',
-                description: 'Gil'
+                description: 'Gil',
+                originalAlt: 'Gil',
+                thumbnailAlt: 'Gil'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage10,
                 thumbnail: watercolorImage10,
                 originalTitle: 'Zimorodek',
-                description: 'Zimorodek'
+                description: 'Zimorodek',
+                originalAlt: 'Zimorodek',
+                thumbnailAlt: 'Zimorodek'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage11,
                 thumbnail: watercolorImage11,
                 originalTitle: 'Wróbel',
-                description: 'Wróbel'
+                description: 'Wróbel',
+                originalAlt: 'Wróbel',
+                thumbnailAlt: 'Wróbel'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage12,
                 thumbnail: watercolorImage12,
                 originalTitle: 'Sójka',
-                description: 'Sójka'
+                description: 'Sójka',
+                originalAlt: 'Sójka',
+                thumbnailAlt: 'Sójka'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage13,
                 thumbnail: watercolorImage13,
                 originalTitle: 'Kowalik',
-                description: 'Kowalik'
+                description: 'Kowalik',
+                originalAlt: 'Kowalik',
+                thumbnailAlt: 'Kowalik'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage14,
                 thumbnail: watercolorImage14,
                 originalTitle: 'Ortolan',
-                description: 'Ortolan'
+                description: 'Ortolan',
+                originalAlt: 'Ortolan',
+                thumbnailAlt: 'Ortolan'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage15,
                 thumbnail: watercolorImage15,
                 originalTitle: 'Wąsatka',
-                description: 'Wąsatka'
+                description: 'Wąsatka',
+                originalAlt: 'Wąsatka',
+                thumbnailAlt: 'Wąsatka'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage16,
                 thumbnail: watercolorImage16,
                 originalTitle: 'Sowa',
-                description: 'Sowa'
+                description: 'Sowa',
+                originalAlt: 'Sowa',
+                thumbnailAlt: 'Sowa'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage17,
                 thumbnail: watercolorImage17,
                 originalTitle: 'Raniuszek',
-                description: 'Raniuszek'
+                description: 'Raniuszek',
+                originalAlt: 'Raniuszek',
+                thumbnailAlt: 'Raniuszek'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage18,
                 thumbnail: watercolorImage18,
                 originalTitle: 'Żołna',
-                description: 'Żołna'
+                description: 'Żołna',
+                originalAlt: 'Żołna',
+                thumbnailAlt: 'Żołna'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage19,
                 thumbnail: watercolorImage19,
                 originalTitle: 'Pogrzeb I',
-                description: 'Pogrzeb I \n Fragment dyplomu magisterskiego 2018'
+                description: 'Pogrzeb I \n Fragment dyplomu magisterskiego 2018',
+                originalAlt: 'Pogrzeb I',
+                thumbnailAlt: 'Pogrzeb I'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage20,
                 thumbnail: watercolorImage20,
                 originalTitle: 'Prababcia z wnukami',
-                description: 'Prababcia z wnukami \n Fragment dyplomu magisterskiego 2018'
+                description: 'Prababcia z wnukami \n Fragment dyplomu magisterskiego 2018',
+                originalAlt: 'Prababcia z wnukami',
+                thumbnailAlt: 'Prababcia z wnukami'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage21,
                 thumbnail: watercolorImage21,
                 originalTitle: 'Nowy II',
-                description: 'Nowy II \n Fragment dyplomu magisterskiego 2018'
+                description: 'Nowy II \n Fragment dyplomu magisterskiego 2018',
+                originalAlt: 'Nowy II',
+                thumbnailAlt: 'Nowy II'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage22,
                 thumbnail: watercolorImage22,
                 originalTitle: 'Piotrek i Ania',
-                description: 'Piotrek i Ania \n Fragment dyplomu magisterskiego 2018'
+                description: 'Piotrek i Ania \n Fragment dyplomu magisterskiego 2018',
+                originalAlt: 'Piotrek i Ania',
+                thumbnailAlt: 'Piotrek i Ania'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage23,
                 thumbnail: watercolorImage23,
                 originalTitle: 'Razem I',
-                description: 'Razem I \n Fragment dyplomu magisterskiego 2018'
+                description: 'Razem I \n Fragment dyplomu magisterskiego 2018',
+                originalAlt: 'Razem I',
+                thumbnailAlt: 'Razem I'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage24,
                 thumbnail: watercolorImage24,
                 originalTitle: 'Ciocia Stasia z Magdą',
-                description: 'Ciocia Stasia z Magdą \n Fragment dyplomu magisterskiego 2018'
+                description: 'Ciocia Stasia z Magdą \n Fragment dyplomu magisterskiego 2018',
+                originalAlt: 'Ciocia Stasia z Magdą',
+                thumbnailAlt: 'Ciocia Stasia z Magdą'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage25,
                 thumbnail: watercolorImage25,
                 originalTitle: 'Pogrzeb IV',
-                description: 'Pogrzeb IV \n Fragment dyplomu magisterskiego 2018'
+                description: 'Pogrzeb IV \n Fragment dyplomu magisterskiego 2018',
+                originalAlt: 'Pogrzeb IV',
+                thumbnailAlt: 'Pogrzeb IV'
             },
             {
                 category: 'Akwarela',
                 original: watercolorImage26,
                 thumbnail: watercolorImage26,
                 originalTitle: 'Babcia z mamą',
-                description: 'Babcia z mamą \n Fragment dyplomu magisterskiego 2018'
+                description: 'Babcia z mamą \n Fragment dyplomu magisterskiego 2018',
+                originalAlt: 'Babcia z mamą',
+                thumbnailAlt: 'Babcia z mamą'
             },
         ],
         landscape: [
@@ -261,70 +313,90 @@ const imagesGallery = {
                 original: landscapeImage1,
                 thumbnail: landscapeImage1,
                 originalTitle: 'Bez tytułu',
-                description: 'Bez tytułu \n 2020, 50x70'
+                description: 'Bez tytułu \n 2020, 50x70',
+                originalAlt: 'Bez tytułu',
+                thumbnailAlt: 'Bez tytułu'
             },
             {
                 category: 'Pejzaż',
                 original: landscapeImage2,
                 thumbnail: landscapeImage2,
                 originalTitle: 'Może morze',
-                description: 'Może morze \n 2018, 50x70'
+                description: 'Może morze \n 2018, 50x70',
+                originalAlt: 'Może morze',
+                thumbnailAlt: 'Może morze'
             },
             {
                 category: 'Pejzaż',
                 original: landscapeImage3,
                 thumbnail: landscapeImage3,
                 originalTitle: 'Na zdrowie',
-                description: 'Na zdrowie \n 2018, 50x70'
+                description: 'Na zdrowie \n 2018, 50x70',
+                originalAlt: 'Na zdrowie',
+                thumbnailAlt: 'Na zdrowie'
             },
             {
                 category: 'Pejzaż',
                 original: landscapeImage4,
                 thumbnail: landscapeImage4,
                 originalTitle: 'Nad stawem',
-                description: 'Nad stawem \n 2019, 50x70'
+                description: 'Nad stawem \n 2019, 50x70',
+                originalAlt: 'Nad stawem',
+                thumbnailAlt: 'Nad stawem'
             },
             {
                 category: 'Pejzaż',
                 original: landscapeImage5,
                 thumbnail: landscapeImage5,
                 originalTitle: 'Oczekiwanie',
-                description: 'Oczekiwanie \n 2019, 50x70'
+                description: 'Oczekiwanie \n 2019, 50x70',
+                originalAlt: 'Oczekiwanie',
+                thumbnailAlt: 'Oczekiwanie'
             },
             {
                 category: 'Pejzaż',
                 original: landscapeImage6,
                 thumbnail: landscapeImage6,
-                originalTitle: ' Park Poniatowskiego',
-                description: ' Park Poniatowskiego \n 2018, 50x70'
+                originalTitle: 'Park Poniatowskiego',
+                description: 'Park Poniatowskiego \n 2018, 50x70',
+                originalAlt: 'Park Poniatowskiego',
+                thumbnailAlt: 'Park Poniatowskiego'
             },
             {
                 category: 'Pejzaż',
                 original: landscapeImage7,
                 thumbnail: landscapeImage7,
                 originalTitle: 'Pejzaż jesienny',
-                description: 'Pejzaż jesienny \n 2018, 50x70'
+                description: 'Pejzaż jesienny \n 2018, 50x70',
+                originalAlt: 'Pejzaż jesienny',
+                thumbnailAlt: 'Pejzaż jesienny'
             },
             {
                 category: 'Pejzaż',
                 original: landscapeImage8,
                 thumbnail: landscapeImage8,
                 originalTitle: 'Zimowo',
-                description: 'Zimowo \n 2018, 70x50'
+                description: 'Zimowo \n 2018, 70x50',
+                originalAlt: 'Zimowo',
+                thumbnailAlt: 'Zimowo'
             },
             {
                 category: 'Pejzaż',
                 original: landscapeImage9,
                 thumbnail: landscapeImage9,
                 originalTitle: 'Ponad',
-                description: 'Ponad \n 2020, 80x60'
+                description: 'Ponad \n 2020, 80x60',
+                originalAlt: 'Ponad',
+                thumbnailAlt: 'Ponad'
             },
             {
                 category: 'Pejzaż',
                 original: landscapeImage10,
                 thumbnail: landscapeImage10,
                 originalTitle: 'Ta chwila',
-                description: 'Ta chwila \n 2020, 70x50'
+                description: 'Ta chwila \n 2020, 70x50',
+                originalAlt: 'Ta chwila',
+                thumbnailAlt: 'Ta chwila'
             },
         ],
         abstraction: [
@@ -333,7 +405,9 @@ const imagesGallery = {
                 original: abstractionImage1,
                 thumbnail: abstractionImage1,
                 originalTitle: 'Fantasmagoria',
-                description: 'Fantasmagoria \n 2019, 70x50'
+                description: 'Fantasmagoria \n 2019, 70x50',
+                originalAlt: 'Fantasmagoria',
+                thumbnailAlt: 'Fantasmagoria'
             }
         ]
     },
@@ -344,49 +418,63 @@ const imagesGallery = {
                 original: printedImage1,
                 thumbnail: printedImage1,
                 originalTitle: 'Tkanina Geometrica',
-                description: 'Tkanina Geometrica \n sitodruk, bawełna, 150 x 300 cm'
+                description: 'Tkanina Geometrica \n sitodruk, bawełna, 150 x 300 cm',
+                originalAlt: 'Tkanina Geometrica',
+                thumbnailAlt: 'Tkanina Geometrica'
             },
             {
                 category: 'Tkanina drukowana',
                 original: printedImage2,
                 thumbnail: printedImage2,
                 originalTitle: 'Tkanina Geometrica',
-                description: 'Tkanina Geometrica \n sitodruk, bawełna, 150 x 300 cm'
+                description: 'Tkanina Geometrica \n sitodruk, bawełna, 150 x 300 cm',
+                originalAlt: 'Tkanina Geometrica',
+                thumbnailAlt: 'Tkanina Geometrica'
             },
             {
                 category: 'Tkanina drukowana',
                 original: printedImage3,
                 thumbnail: printedImage3,
                 originalTitle: 'Tkanina Ciało',
-                description: 'Tkanina Ciało \n sitodruk, bawełna, 120 x 280 cm'
+                description: 'Tkanina Ciało \n sitodruk, bawełna, 120 x 280 cm',
+                originalAlt: 'Tkanina Ciało',
+                thumbnailAlt: 'Tkanina Ciało'
             },
             {
                 category: 'Tkanina drukowana',
                 original: printedImage4,
                 thumbnail: printedImage4,
                 originalTitle: 'Tkanina Mozaika',
-                description: 'Tkanina Mozaika \n druk sublimacyjny na podłożu poliestrowym, 120 x 280 cm'
+                description: 'Tkanina Mozaika \n druk sublimacyjny na podłożu poliestrowym, 120 x 280 cm',
+                originalAlt: 'Tkanina Mozaika',
+                thumbnailAlt:'Tkanina Mozaika'
             },
             {
                 category: 'Tkanina drukowana',
                 original: printedImage5,
                 thumbnail: printedImage5,
                 originalTitle: 'Tkanina Maki',
-                description: 'Tkanina Maki \n druk sublimacyjny na podłożu poliestrowym, 120 x 280 cm'
+                description: 'Tkanina Maki \n druk sublimacyjny na podłożu poliestrowym, 120 x 280 cm',
+                originalAlt: 'Tkanina Maki',
+                thumbnailAlt:'Tkanina Maki'
             },
             {
                 category: 'Tkanina drukowana',
                 original: printedImage6,
                 thumbnail: printedImage6,
                 originalTitle: 'Tkanina Miasto',
-                description: 'Tkanina Miasto \n druk sublimacyjny na podłożu poliestrowym, 120 x 280 cm'
+                description: 'Tkanina Miasto \n druk sublimacyjny na podłożu poliestrowym, 120 x 280 cm',
+                originalAlt: 'Tkanina Miasto',
+                thumbnailAlt: 'Tkanina Miasto'
             },
             {
                 category: 'Tkanina drukowana',
                 original: printedImage7,
                 thumbnail: printedImage7,
                 originalTitle: 'Tkanina Tygrys',
-                description: 'Tkanina Tygrys \n druk sublimacyjny na podłożu poliestrowym, 120 x 280 cm'
+                description: 'Tkanina Tygrys \n druk sublimacyjny na podłożu poliestrowym, 120 x 280 cm',
+                originalAlt: 'Tkanina Tygrys',
+                thumbnailAlt: 'Tkanina Tygrys'
             },
         ],
         unique: [
@@ -395,42 +483,54 @@ const imagesGallery = {
                 original: uniqueImage1,
                 thumbnail: uniqueImage1,
                 originalTitle: 'Instalacja dyplomowa',
-                description: 'Instalacja dyplomowa'
+                description: 'Instalacja dyplomowa',
+                originalAlt: 'Instalacja dyplomowa',
+                thumbnailAlt: 'Instalacja dyplomowa'
             },
             {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage2,
                 thumbnail: uniqueImage2,
                 originalTitle: 'Instalacja dyplomowa',
-                description: 'Instalacja dyplomowa'
+                description: 'Instalacja dyplomowa',
+                originalAlt: 'Instalacja dyplomowa',
+                thumbnailAlt: 'Instalacja dyplomowa'
             },
             {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage3,
                 thumbnail: uniqueImage3,
                 originalTitle: 'Futrzak',
-                description: 'Futrzak'
+                description: 'Futrzak',
+                originalAlt: 'Futrzak',
+                thumbnailAlt: 'Futrzak'
             },
             {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage4,
                 thumbnail: uniqueImage4,
                 originalTitle: 'Futrzak',
-                description: 'Futrzak \n rewers'
+                description: 'Futrzak \n rewers',
+                originalAlt: 'Futrzak',
+                thumbnailAlt: 'Futrzak'
             },
             {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage5,
                 thumbnail: uniqueImage5,
                 originalTitle: 'Zimowa',
-                description: 'Zimowa'
+                description: 'Zimowa',
+                originalAlt: 'Zimowa',
+                thumbnailAlt: 'Zimowa'
             },
             {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage6,
                 thumbnail: uniqueImage6,
                 originalTitle: 'Obiekt 1',
-                description: 'Obiekt 1'
+                description: 'Obiekt 1',
+                originalAlt: 'Obiekt 1',
+                thumbnailAlt: 'Obiekt 1'
             },
         ],
         realizations: [
@@ -439,36 +539,46 @@ const imagesGallery = {
                 original: realizationsImage1,
                 thumbnail: realizationsImage1,
                 originalTitle: 'Poduszki Mikro',
-                description: 'Poduszki Mikro \n druk sublimacyjny na podłożu poliestrowym'
+                description: 'Poduszki Mikro \n druk sublimacyjny na podłożu poliestrowym',
+                originalAlt: 'Poduszki Mikro',
+                thumbnailAlt: 'Poduszki Mikro'
             },
             {
                 category: 'Realizacje',
                 original: realizationsImage2,
                 thumbnail: realizationsImage2,
                 originalTitle: 'Tkanina Geometrica 2',
-                description: 'Tkanina Geometrica 2 \n sitodruk'
+                description: 'Tkanina Geometrica 2 \n sitodruk',
+                originalAlt: 'Tkanina Geometrica 2',
+                thumbnailAlt: 'Tkanina Geometrica 2'
             },
             {
                 category: 'Realizacje',
                 original: realizationsImage3,
                 thumbnail: realizationsImage3,
                 originalTitle: 'Poduszki w motyle',
-                description: 'Poduszki w motyle \n druk sublimacyjny na podłożu poliestrowym'
+                description: 'Poduszki w motyle \n druk sublimacyjny na podłożu poliestrowym',
+                originalAlt: 'Poduszki w motyle',
+                thumbnailAlt: 'Poduszki w motyle'
             },
             {
                 category: 'Realizacje',
                 original: realizationsImage4,
                 thumbnail: realizationsImage4,
                 originalTitle: 'Poduszki Mikro',
-                description: 'Poduszki Mikro \n druk sublimacyjny na podłożu poliestrowym'
+                description: 'Poduszki Mikro \n druk sublimacyjny na podłożu poliestrowym',
+                originalAlt: 'Poduszki Mikro',
+                thumbnailAlt: 'Poduszki Mikro'
             },
             {
                 category: 'Realizacje',
                 original: realizationsImage5,
                 thumbnail: realizationsImage5,
                 originalTitle: 'Tkanina Geometrica 2',
-                description: 'Tkanina Geometrica 2 \n sitodruk'
-            },
+                description: 'Tkanina Geometrica 2 \n sitodruk',
+                originalAlt: 'Tkanina Geometrica 2',
+                thumbnailAlt: 'Tkanina Geometrica 2'
+            }
         ]
     },
     other: {
@@ -478,21 +588,27 @@ const imagesGallery = {
                 original: sketchesImage1,
                 thumbnail: sketchesImage1,
                 originalTitle: 'Szkic 1',
-                description: 'Szkic 1'
+                description: 'Szkic 1',
+                originalAlt: 'Szkic 1',
+                thumbnailAlt: 'Szkic 1'
             },
             {
                 category: 'Szkice',
                 original: sketchesImage2,
                 thumbnail: sketchesImage2,
                 originalTitle: 'Szkic 2',
-                description: 'Szkic 2'
+                description: 'Szkic 2',
+                originalAlt: 'Szkic 2',
+                thumbnailAlt: 'Szkic 2'
             },
             {
                 category: 'Szkice',
                 original: sketchesImage3,
                 thumbnail: sketchesImage3,
                 originalTitle: 'Szkic 3',
-                description: 'Szkic 3'
+                description: 'Szkic 3',
+                originalAlt: 'Szkic 3',
+                thumbnailAlt: 'Szkic 3'
             },
         ],
         drawing: [
@@ -501,21 +617,27 @@ const imagesGallery = {
                 original: drawingImage1,
                 thumbnail: drawingImage1,
                 originalTitle: 'Postać 1',
-                description: 'Postac 1 \n technika - tusz akryl'
+                description: 'Postac 1 \n technika - tusz akryl',
+                originalAlt: 'Postać 1',
+                thumbnailAlt: 'Postać 1'
             },
             {
                 category: 'Rysunek',
                 original: drawingImage2,
                 thumbnail: drawingImage2,
                 originalTitle: 'Postać 2',
-                description: 'Postac 2 \n technika - ołówek'
+                description: 'Postac 2 \n technika - ołówek',
+                originalAlt: 'Postać 2',
+                thumbnailAlt: 'Postać 2'
             },
             {
                 category: 'Rysunek',
                 original: drawingImage3,
                 thumbnail: drawingImage3,
                 originalTitle: 'Postać 3',
-                description: 'Postac 3 \n technika tusz'
+                description: 'Postac 3 \n technika tusz',
+                originalAlt: 'Postać 3',
+                thumbnailAlt: 'Postać 3'
             },
         ],
         stepbystep: [
