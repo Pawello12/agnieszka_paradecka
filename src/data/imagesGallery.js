@@ -394,8 +394,8 @@ const imagesGallery = {
                 category: 'Tkanina unikatowa',
                 original: uniqueImage1,
                 thumbnail: uniqueImage1,
-                originalTitle: 'Instaslacja dyplomowa',
-                description: 'Instaslacja dyplomowa'
+                originalTitle: 'Instalacja dyplomowa',
+                description: 'Instalacja dyplomowa'
             },
             {
                 category: 'Tkanina unikatowa',
