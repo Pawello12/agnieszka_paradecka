@@ -18,7 +18,7 @@ const SocialMedia = () => {
         <div className="social-media">
             <SocialMediaLink name="facebook" icon={facebookIcon} type="link" url={facebookUrl} />
             <SocialMediaLink name="instagram" icon={instagramIcon} type="link" url={instagramUrl} />
-            <SocialMediaLink mail1="aparadecka93" mail2="@gmail.com" icon={mailIcon} type="mail" url={mailToUrl} />
+            <SocialMediaLink mail1="kontaktkitkacy" mail2="@gmail.com" icon={mailIcon} type="mail" url={mailToUrl} />
         </div>
     )
 }
