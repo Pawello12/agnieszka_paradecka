@@ -78,6 +78,11 @@
             filter: grayscale(1);
             transition: filter 0.3s;
             overflow: hidden;
+            height: 400px;
+        }
+
+        @media (min-width: 1024px) and (min-height: 820px) {
+            height: 600px;
         }
     }
 
