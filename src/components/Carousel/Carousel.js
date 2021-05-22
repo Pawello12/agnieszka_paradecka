@@ -16,29 +16,33 @@ const images = [
         description: `Pejzaż jesienny
             2018, 50x70`,
         originalClass: "carousel__img",
-        originalLabel: "sasdasdsad"
+        originalAlt: 'Pejzaż jesienny'
     },
     {
         original: image2,
         thumbnail: image2,
-        description: `Czeczotka`
+        description: `Czeczotka`,
+        originalAlt: 'Czeczotka'
     },
     {
         original: image3,
         thumbnail: image3,
         description: `Tkanina Maki
-        druk sublimacyjny na podłożu poliestrowym`
+        druk sublimacyjny na podłożu poliestrowym`,
+        originalAlt: 'Tkanina Maki'
     },
     {
         original: image4,
         thumbnail: image4,
         description: `Fantasmagoria
-        2019, 70x50`
+        2019, 70x50`,
+        originalAlt: 'Fantasmagoria'
     },
     {
         original: image5,
         thumbnail: image5,
-        description: `Futrzak`
+        description: `Futrzak`,
+        originalAlt: 'Futrzak'
     },
 ];
 
