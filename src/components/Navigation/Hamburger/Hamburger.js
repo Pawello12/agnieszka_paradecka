@@ -7,7 +7,7 @@ const Hamburger = ({openMenuHandler, menuActive}) => {
 
     return(
         <div className="nav__hamburger">
-            <button onClick={openMenuHandler} >
+            <button onClick={openMenuHandler} aria-label="menu" >
                 <FontAwesomeIcon icon={faBars} />
             </button>
         </div>
