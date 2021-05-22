@@ -10,7 +10,11 @@
     }
 
     @media (min-width: 1024px) and (orientation: landscape) {
-        height: 82vh;
+        height: 72vh;
+    }
+
+    @media (min-width: 1024px) and (orientation: landscape) and (min-height: 720px) {
+        height: 81vh;
     }
 
     @media (min-height: 800px) and (orientation: portrait) {
