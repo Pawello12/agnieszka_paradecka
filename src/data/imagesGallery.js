@@ -385,7 +385,7 @@ const imagesGallery = {
                 original: landscapeImage9,
                 thumbnail: landscapeImage9,
                 originalTitle: 'Ponad',
-                description: 'Ponad \n 2020, 80x60',
+                description: 'Ponad \n 2020, 60x80',
                 originalAlt: 'Ponad',
                 thumbnailAlt: 'Ponad'
             },
@@ -548,7 +548,7 @@ const imagesGallery = {
                 original: realizationsImage2,
                 thumbnail: realizationsImage2,
                 originalTitle: 'Tkanina Geometrica 2',
-                description: 'Tkanina Geometrica 2 \n sitodruk',
+                description: 'Tkanina Geometrica 2',
                 originalAlt: 'Tkanina Geometrica 2',
                 thumbnailAlt: 'Tkanina Geometrica 2'
             },
